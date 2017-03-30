@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>Android App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<div class="login-page" ng-controller="loginCtrl">
+    <div class="form">
+        <form class="login-form">
+            <input type="text" placeholder="username" ng-model="username"/>
+            <input type="password" placeholder="password" ng-model="password"/>
+            <button ng-click="login()">login</button>
+            </br></br>
+            <button>Register</button>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
